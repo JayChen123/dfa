@@ -1,14 +1,8 @@
-# dfa
-scan sensitive word use dfa
-```buildoutcfg
+from app.dfa import DFA
+
 __author__ = "Black"
 __email__ = "cj194832@163.com"
-__version = "V1.0"
-```
 
-
-```python
-from app.dfa import DFA
 
 def main():
     """
@@ -25,7 +19,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-```
-```buildoutcfg
->>> (True, {'三级片', '毒品', '海洛因', '冰毒', '大麻'})
-```
