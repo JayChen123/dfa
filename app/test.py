@@ -1,8 +1,5 @@
 from app.dfa import DFA
 
-__author__ = "Black"
-__email__ = "cj194832@163.com"
-
 
 def main():
     """
